@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec",
     "lint": "./node_modules/jshint/bin/jshint --reporter ./node_modules/jshint-md-reporter/lib/reporter.js src > docs/jshint.md",
-    "jscs": "./node_modules/jscs/bin/jscs --reporter ./node_modules/jscs-md-reporter/src/reporter.js src > docs/jscs.md",
+    "jscs": "./node_modules/jscs/bin/jscs --reporter ./node_modules/jscs-md-reporter src > docs/jscs.md",
     "jsdoc": "./node_modules/jsdoc-to-markdown/bin/cli.js 'src/**/*.js' > docs/api.md",
     "docs": "mkdir -p docs && npm run -s jsdoc && npm run -s lint && npm run -s jscs"
   },
