@@ -11,6 +11,14 @@ $ npm install mandrill-webhook-event-parser --save
 
 ## Usage
 
+```javascript
+var parser = require('mandrill-webhook-event-parser');
+
+app.use(parser());
+```
+
+The parser expects there the Mandrill events to have been urldecoded and stored at ```req.body.mandrill_events```. It will parse and store them at ```req.mandrillEvents``` for further processing.
+
 ## Tests
 ```bash
 $ npm test
