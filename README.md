@@ -5,34 +5,36 @@ Npm Module for parsing events from inbound webhooks for Mandrill
 
 ## Installation
 
-  npm install mandrill-webhook-event-parser --save
+```bash
+$ npm install mandrill-webhook-event-parser --save
+```
 
 ## Usage
 
 ## Tests
-
-  npm test
-
+```bash
+$ npm test
+```
 ## Links
 
-  [api documentation](./docs/api.md)
+[api documentation](./docs/api.md)
 
-  [jscs Report](./docs/jscs.md)
+[jscs Report](./docs/jscs.md)
 
-  [jshint Report](./docs/jshint.md)
+[jshint Report](./docs/jshint.md)
 
 ## Contributing
 
-  Use [Airbnb jscs style guide](https://github.com/airbnb/javascript).
+Use [Airbnb jscs style guide](https://github.com/airbnb/javascript).
 
-  Add unit tests for any new or changed functionality. Lint and test your code.
+Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Release History
 
-  Not yet released.
+Not yet released.
 
 ## Legal Stuff
 
-  mandrill-webhook-authenticator is Copyright 2016 AodhagÃ¡n Collins. All Rights Reserved.
+mandrill-webhook-event-parser is Copyright 2016 Aodhagán Collins. All Rights Reserved.
 
-  Distributed under [MIT License](https://tldrlegal.com/license/mit-license).
+Distributed under [MIT License](https://tldrlegal.com/license/mit-license).
