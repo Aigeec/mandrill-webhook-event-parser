@@ -1,6 +1,6 @@
 {
   "name": "mandrill-webhook-event-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Npm Module for parsing events from inbound webhooks for Mandrill",
   "main": "index.js",
   "scripts": {
